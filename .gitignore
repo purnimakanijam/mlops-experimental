@@ -1,0 +1,26 @@
+# Python and MLOps Specific .gitignore
+
+# Python
+__pycache__/
+*.pyc
+.DS_Store
+.env
+venv/
+
+# Data
+/data/raw/
+
+# Models
+/models/*.pkl
+
+# Logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Standard ignores
+*.egg-info/
+*.egg
+*.whl
+*.pdb
